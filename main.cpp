@@ -30,7 +30,7 @@ void insertData(LinkedList *o) {
         i = getUseri("Please enter a number (-999 to stop inserting): ");
         if(i != -100) {
             o->insertL(i);
-            cout << i << " has been inserted into the list.\n";
+            
         }
     }
     if(!o->isLinkedListEmpty())
@@ -43,7 +43,7 @@ void deleteData(LinkedList *o) {
         i = getUseri("Please enter a number (-999 to stop deleting): ");
         if(i != -100) {
             o->deleteL(i);
-            cout << i << " has been deleted from the list.\n";
+            
         }
     }
     o->print();
